@@ -3,11 +3,11 @@ from ArrayInitParser import ArrayInitParser
 
 class ArrayInitWalker(ArrayInitListener):
     def enterInit(self, ctx:ArrayInitParser.InitContext):
-        pass
+        print("dduuuppaa")
 
     # Exit a parse tree produced by ArrayInitParser#init.
     def exitInit(self, ctx:ArrayInitParser.InitContext):
-        pass
+        print("dduuuppaaw")
 
 
     # Enter a parse tree produced by ArrayInitParser#value.

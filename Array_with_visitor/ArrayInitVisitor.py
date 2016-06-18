@@ -11,7 +11,7 @@ class ArrayInitVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by ArrayInitParser#init.
     def visitInit(self, ctx:ArrayInitParser.InitContext):
-        print(self.visit(ctx))
+        print(ctx.getText())
         # if ctx.getText()[0] == "{":
         #     print("sddsfsf")
         #     return "[" + self.visitChildren(ctx) + "]"
